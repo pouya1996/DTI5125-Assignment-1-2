@@ -1,4 +1,5 @@
-# Stretchy Words
+# Assignment 1:
+## Stretchy Words
 
 Sometimes people repeat letters to represent extra feeling, such as "hello" -> "heeellooo", "hi" -> "hiiii". In these strings like "heeellooo", we have groups of adjacent letters that are all the same: "h", "eee", "ll", "ooo".
 
@@ -8,7 +9,7 @@ For example, starting with "hello", we could do an extension on the group "o" to
 
 Given a list of query words, return the number of words that are stretchy.
 
-## Example:
+### Example:
 **Input:**
 ```
 S = "heeellooo" words = ["hello", "hi", "helo"]
@@ -21,9 +22,12 @@ S = "heeellooo" words = ["hello", "hi", "helo"]
 We can extend "e" and "o" in the word "hello" to get "heeellooo".  
 We can't extend "helo" to get "heeellooo" because the group "ll" is not size 3 or more.
 
-## Constraints:
+### Constraints:
 
 - `0 <= len(S) <= 100`
 - `0 <= len(words) <= 100`
 - `0 <= len(words[i]) <= 100`
 - `S` and all words in `words` consist only of lowercase letters.
+
+# Assignment 2:
+
