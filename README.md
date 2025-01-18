@@ -30,4 +30,20 @@ We can't extend "helo" to get "heeellooo" because the group "ll" is not size 3 o
 - `S` and all words in `words` consist only of lowercase letters.
 
 # Assignment 2:
+## Prepare the Data
 
+1. **Take a sufficient sample of Gutenberg's digital 3 books.**
+
+2. **Create (random?!) samples of 200 partitions of the book.**  
+   - Each partition or record should contain exactly **100 words**.
+
+3. **Generalize the program**  
+   - Ensure the program is capable of replicating this process for **multiple books**.
+
+4. **Labeling**  
+   - Maintain a label for each of the text segments, records, or documents.
+   - Label them as **a, b, c, etc.** according to the book they belong to.
+
+5. **Manipulations**  
+   - Use **Regular Expressions** and **Pandas** for data manipulation.
+   - Serialize the data for further use.
